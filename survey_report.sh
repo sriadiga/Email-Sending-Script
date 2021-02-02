@@ -1,20 +1,14 @@
 fileName="survey_report.txt"
 recipientEmailAddress=$1
 emailSubject="Survey Status Report"
-emailBody="Hello <USER>,
+emailBody="Hello,
 
+The Survey Invitation Summary Report is attached herewith. 
 
-The job survey report generation has successfully run to completion. Please find the below reports in the attached 'survey_status_report.csv' file.
-
-
-
-Number of 'Closed' survey
-Number of 'Completed' survey
-Number of 'Mail Opened' survey
-Number of 'Opened' survey
-Number of 'Pending' survey
-Number of 'Expired' survey
-
+The report is generated for the below details:
+Collection Protocol Id: 
+Start date:
+End date:
  
 Thank you,
 OpenSpecimen Administrator"
